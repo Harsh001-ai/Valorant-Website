@@ -1,0 +1,437 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.img-logo{
+    height: 20px;
+}
+.brand:hover{
+    color: red !important;
+}
+.nav-orders{
+    gap: 15px;
+}
+.nav-orders :hover {
+    color: rgb(211, 68, 68) !important;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+}
+.nav-back{
+    background-color: black;
+    height: 74px;
+}
+.btn-outline-success{
+    color: white;
+    border-color: red;
+    border-radius: 50px;
+}
+.btn-outline-success:hover{
+    background-color: red;
+    border-color: red;
+}
+.form-control{
+        display: block;
+    width: 62% !important;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+}
+.align-items-center{
+    gap: 10px;
+}
+
+
+/* Background-seen */
+
+.hero-section {
+  position: relative;
+  width: 100%;
+  height: 80vh; 
+  overflow: hidden;
+}
+
+.background-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.bk-video {
+  width: 100%;
+  height: 75%;
+  object-fit: cover;
+}
+
+.Heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 80%;
+  color: white;
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.text-img{
+    display: flex;
+    justify-content: center;
+    font-family: 'Valorant', sans-serif;
+  letter-spacing: 2px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.text-img h1{
+    font-size: 4.5rem;
+}
+.Heading h4{
+    margin-top: 10px;
+    text-align: center;
+    color: #fff;
+    font-size: 1.5rem;
+}
+.bb1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b1{
+    border: outset 2px;
+    margin-top: 20px;
+    color: #fff;
+    border-color: #fff;
+    background-color: rgb(211, 68, 68);
+    border-radius: 0%;
+    font-size: 1.5rem;
+    height: 80px;
+}
+.b1:hover{
+    background-color:#fff;
+    color: rgb(14, 13, 13);
+}
+.Latest{
+    margin-top: -120px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.Latest h1{
+    font-weight: 800;
+    font-size: 2.5rem;
+}
+.card-group{
+    gap: 40px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+.colored{
+    color: rgb(211, 68, 68);
+}
+
+/* Banner */
+.banner{
+    margin-top: 20px;
+    position: relative;
+  display: inline-block;
+}
+.bg-image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+    .overlay-text {
+      position: absolute;
+      top: 50%;
+      left: 35%;
+      transform: translate(-50%, -50%);
+      color: white;
+      font-size: 32px;
+      font-weight: bold;
+      padding: 10px 20px;
+      border-radius: 10px;
+      z-index: 10;
+    }
+    .overlay-text h1{
+        overflow-wrap: break-word;
+    text-wrap: balance;
+    word-break: break-word;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 112px;
+    }
+    .overlay-text p{
+        text-wrap: balance;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 25px;
+    line-height: 28px;
+    font-weight: 500;
+    }
+    .overlay-text button{
+        height: 80px;
+    }
+
+    .parent-vc{
+        display: flex;
+        justify-content: space-evenly;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .card-group {
+  gap: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  overflow: hidden;
+  transition: transform 0.4s ease;
+}
+
+.card video {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+.card:hover {
+  transform: scale(1.03); /* subtle scale */
+}
+
+.card:hover video {
+  transform: scale(1.02); /* gentle zoom */
+}
+
+.card-title {
+  transition: transform 0.3s ease;
+}
+
+.card:hover .card-title {
+  transform: translateY(-2px); /* soft lift */
+}
+
+
+    .video1 video{
+        width: 100%;
+        height: 100%;
+        margin: 20px 0 ;
+    }
+    .content1{
+        margin-top: 150px;
+        margin-right: 50px;
+    }
+    .content1 h1{
+        font-size: 5rem;
+        color: rgb(15, 25, 35);
+        font-weight: 900;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .content1 h6{
+        color: rgb(15, 25, 35);
+        font-size: 1.5rem;
+    }
+    .content1 p{
+        color: rgb(15, 25, 35);
+    }
+    .content1 .b1{
+    margin-top: 20px;
+    color: #fff;
+    border-color: #fff;
+    background-color: rgb(211, 68, 68);
+    border-radius: 5px;
+    font-size: 1.5rem;
+    height: 80px;
+}
+.b1:hover{
+    background-color: rgb(15, 25, 35);
+    color: #fff;
+}
+
+/* agents */
+.parent-main{
+    background-image: url(60251.jpg);
+    margin-top: 50px;
+}
+.parent-vc2{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 100px;
+    margin: 20px 0 0 50px;
+}
+.parent-vc2 img{
+    margin-top: 50px;
+    width: 50%;
+    height: auto;
+}
+.content2{
+    color: rgb(15, 25, 35);
+}
+.content2 h1{
+    font-size: 5rem;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.content2 h6{
+    margin-top: 20px;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.b2{
+    margin-top: 20px;
+    background-color: rgb(15, 25, 35);
+    border-radius: 5px;
+    height: 80px;
+    border:none;
+}
+
+/* maps */
+.Maps{
+    margin-top: 30px;
+    text-align: center;
+}
+.Maps h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+/* Agents */
+.agents{
+     margin-top: 30px;
+    text-align: center;
+}
+.agents h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+
+.DOWNLOAD{
+    margin-top: 30px;
+    background-color: #292929;
+    text-align: center;
+    padding: 10px;
+}
+.DOWNLOAD a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: 0.5s;
+}
+.DOWNLOAD a:hover{
+    color: red;
+}
+
+/* footer */
+
+
+.company-info{
+    text-align: center;
+}
+.valo-footer {
+  position: relative;
+  background: linear-gradient(to top, #0d0d0d, #1a1a1a);
+  color: white;
+  padding: 50px 20px;
+  font-family: 'Valorant', sans-serif;
+  overflow: hidden;
+  border-top: 3px solid red;
+}
+
+.footer-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  z-index: 2;
+  position: relative;
+}
+
+.payment-section img,
+.social-icons img {
+  width: 60px;
+  margin: 0 10px;
+  filter: brightness(0) invert(1);
+  transition: transform 0.3s ease;
+}
+.social-icons .YouTube{
+    width: 100px;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+.payment-section .paypal{
+    width: 100px;
+}
+
+.legal-links {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+}
+
+.legal-links li {
+  margin: 5px 0;
+}
+
+.legal-links a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.legal-links a:hover {
+  color: red;
+}
+
+@keyframes float {
+  0% { transform: translateY(0); }
+  50% { transform: translateY(-20px); }
+  100% { transform: translateY(0); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.payment-section img {
+  width: 60px;
+  margin: 0 10px;
+  filter: grayscale(100%) brightness(0.8); /* black/gray look */
+  transition: filter 0.4s ease;
+}
+
+.payment-section img:hover {
+  filter: grayscale(0%) brightness(1); /* full color */
+}
+.social-icons img {
+  width: 40px;
+  margin: 0 10px;
+  filter: grayscale(100%) brightness(0.8);  /* black/gray look */
+  transition: filter 0.4s ease;
+}
+
+.social-icons img:hover {
+  filter: grayscale(0%) brightness(1);  /* full color on hover */
+}
